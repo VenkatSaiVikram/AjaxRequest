@@ -7,7 +7,7 @@ requestButton.onclick = newRequest;
 
 function newRequest() {
     const xhr = new XMLHttpRequest();
-    xhr.open("get", "./train.mp4");
+    xhr.open("get", "./thor.mp4");
     xhr.responseType = "blob";
 
     xhr.onprogress = (progress) => {
