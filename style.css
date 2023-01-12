@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.App .response-area {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: white;
+    padding: 1rem;
+}
+
+.App .response-area video {
+    width: 100%;
+    height: 100%;
+}
+
+.App button[type=button] {
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+.App progress {
+    font-size: 2rem;
+    width: 500px;
+}
+
+.App progress {
+    color: black;
+}
+.App progress::-webkit-progress-value {
+    background: black;
+}
+.App progress::-moz-progress-bar {
+    background: black;
+}  
