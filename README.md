@@ -1,0 +1,3 @@
+# AjaxRequest
+
+## Ajax XMLHttpRequest Example
